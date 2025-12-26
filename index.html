@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de desarrollador backend especializado en Spring Boot y seguridad">
+    <title>Backend Developer | Spring Boot & Security</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="nav-logo">Dev Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#tech">Tecnologías</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Desarrollador Backend</h1>
+                <h2 class="hero-subtitle">Spring Boot | Spring Security | APIs REST</h2>
+                <p class="hero-description">
+                    Enfocado en construir sistemas seguros y escalables. Especializado en autenticación JWT, 
+                    arquitectura limpia y desarrollo de APIs REST con Java y Spring Framework.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="#contact" class="btn btn-secondary">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-content">
+                <p>
+                    Soy un desarrollador backend junior con enfoque en Java y el ecosistema Spring. 
+                    Me apasiona la seguridad de aplicaciones y la construcción de APIs robustas y bien documentadas.
+                </p>
+                <p>
+                    Mi aprendizaje ha sido autodidacta, complementado con proyectos personales donde aplico 
+                    principios SOLID, patrones de diseño y mejores prácticas de seguridad. Busco constantemente 
+                    mejorar la calidad del código y la arquitectura de las soluciones que desarrollo.
+                </p>
+                <p>
+                    Actualmente profundizo en microservicios, testing y optimización de rendimiento en aplicaciones Spring Boot.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech" class="tech">
+        <div class="container">
+            <h2 class="section-title">Tecnologías</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Java 17+</li>
+                        <li>Spring Boot</li>
+                        <li>Hibernate / JPA</li>
+                        <li>Maven</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3>Seguridad</h3>
+                    <ul>
+                        <li>Spring Security</li>
+                        <li>JWT</li>
+                        <li>OAuth2</li>
+                        <li>BCrypt</li>
+                        <li>CORS / CSRF</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3>Bases de Datos</h3>
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>Neon</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>Postman</li>
+                        <li>IntelliJ IDEA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos</h2>
+            <div id="projects-container" class="projects-grid">
+                <!-- Los proyectos se cargan dinámicamente desde data.json -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    Estoy abierto a oportunidades de colaboración y nuevos desafíos. 
+                    Puedes contactarme a través de estos canales:
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:ortizCalet2@gmail.com" class="contact-item">
+                        <span class="contact-icon">✉</span>
+                        <span>ortizCalet2@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/luciferStar2005" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <span class="contact-icon">⚡</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/calet-ortiz-0bab62394" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://wa.me/3218467646" target="_blank" rel="noopener noreferrer" class="contact-item whatsapp-btn">
+                        <span class="contact-icon">💬</span>
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Backend Developer Portfolio. Construido con HTML, CSS y JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

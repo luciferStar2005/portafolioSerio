@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "name": "API REST con JWT",
+      "description": "Sistema de autenticación y autorización completo utilizando Spring Security y JWT. Implementa refresh tokens, roles de usuario y protección de endpoints.",
+      "technologies": ["Spring Boot", "Spring Security", "JWT", "PostgreSQL"],
+      "github": "https://github.com/luciferStar2005"
+    }
+
+  ]
+}
